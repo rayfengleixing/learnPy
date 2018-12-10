@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
+'''
+作者 FungLeo ： https://github.com/fengcms
+'''
+
 import requests
 import argparse
 import random
@@ -9,8 +13,8 @@ import json
 # from config import APPID, APPKey
 from prettytable import PrettyTable
 
-APPID = '1d77da719761d7eb'
-APPKey = '6kKS0sBDvaxqG5kxcvM69VnQCO6AjmIA'
+APPID = '×××'
+APPKey = '×××'
 def fanyi(word, goNext):
     baseUrl = 'https://openapi.youdao.com/api'
     salt = str(random.randint(1000000, 9999999))
